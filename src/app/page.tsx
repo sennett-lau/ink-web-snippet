@@ -121,7 +121,7 @@ export default function Home() {
         The map contains all 10K Ink inscription ids{' '}
         <a
           className='underline'
-          href='https://github.com/sennett-lau/ink-web-snippet/blob/main/src/data/inscriptionIdToInkIdMap.tsx'
+          href='https://github.com/sennett-lau/ink-web-snippet/blob/main/src/data/inscriptionIdToInkIdMap.ts'
           target='_blank'
         >
           link

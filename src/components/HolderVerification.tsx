@@ -2,7 +2,7 @@ import { useOrdConnect } from '@ordzaar/ord-connect'
 import { original } from '@reduxjs/toolkit'
 import axios from 'axios'
 import { useState } from 'react'
-import { inscriptionIdToInkIdMap } from '../app/data/inscriptionIdToInkIdMap'
+import { inscriptionIdToInkIdMap } from '../data/inscriptionIdToInkIdMap'
 
 type HiroApiListOfInscriptionsResponse = {
   limit: number
