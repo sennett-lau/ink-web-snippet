@@ -7,8 +7,10 @@ import WalletConnect from '../components/WalletConnect'
 export default function Home() {
   return (
     <div className='flex-1 w-full bg-[#1F1F1F] text-white p-12'>
-      <p className='text-3xl'>Snippet for BTC wallet connect w/ Ink hoder verification</p>
-
+      <p className='text-3xl mb-2'>Snippet for BTC wallet connect w/ Ink hoder verification</p>
+      <a className='underline' href='https://github.com/sennett-lau/ink-web-snippet' target='_blank'>
+        https://github.com/sennett-lau/ink-web-snippet
+      </a>
       <hr className='my-4' />
 
       <p className='text-2xl mb-2'>Installation</p>
